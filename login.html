@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Tizimga kirish</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./css/login.css'>
+</head>
+<body>
+  <section class="forms-section">
+    <h1 class="section-title">Assalomu alaykum</h1>
+    <div class="forms">
+      <div class="form-wrapper is-active">
+        <button type="button" class="switcher switcher-login">
+          Kirish
+          <span class="underline"></span>
+        </button>
+        <form class="form form-login">
+          <fieldset>
+            <legend>Iltimos, raqamingizni kiriting.</legend>
+            <div class="input-block">
+              <label for="login-number">Tel raqam</label>
+              <input id="login-number" type="number" required>
+            </div>
+            <div class="input-block">
+              <label for="login-password">Parol</label>
+              <input id="login-password" type="password" required>
+            </div>
+          </fieldset>
+          <button type="submit" class="btn-login">Kirish</button>
+        </form>
+      </div>
+      <div class="form-wrapper">
+        <button type="button" class="switcher switcher-signup">
+          Ro'yxatdan o'tish
+          <span class="underline"></span>
+        </button>
+        <form class="form form-signup">
+          <fieldset>
+            <legend>Iltimos, raqamingizni, parol va parolni qayta terishni amalga oshiring.</legend>
+            <div class="input-block">
+              <label for="signup-number">Tel raqam</label>
+              <input id="signup-number" type="number" required>
+            </div>
+            <div class="input-block">
+              <label for="signup-password">Parol</label>
+              <input id="signup-password" type="password" required>
+            </div>
+            <div class="input-block">
+              <label for="signup-password-confirm">Parolni qaytaring</label>
+              <input id="signup-password-confirm" type="password" required>
+            </div>
+          </fieldset>
+          <button type="submit" class="btn-signup">Davom eting</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="./app.js"></script>
+</body>
+</html>

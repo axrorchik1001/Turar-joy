@@ -1,0 +1,254 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.dropdown{ 
+  margin: 5px 5px;
+}
+
+.HeaderTitle{
+  margin-top: 3px;
+  /* margin-left: 90px; */
+
+}
+.HeaderTitle i{
+  color: green;
+  font-size: 30px;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 2px;
+}
+.HeaderTitle h2{
+  color: #1C1B19;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+
+}
+.HeaderLoginSection{
+  margin-top: 12px;
+  margin-right: 10px;
+
+}
+.HeaderLoginSection a{
+  text-decoration: none;
+  color: #4c4c4c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.HeaderLoginSection a:hover{
+  color: green;
+}
+
+@media  screen and (max-width: 711px) {
+  .HeaderLoginSection{
+    display: none;
+  }
+  .HeaderTitle{
+    margin: 3px auto;
+  }
+  .MainSearchWrap h1{
+    font-size: 50px;
+  }
+  .MainSearchWrap{
+    padding-top: 80px;
+  }
+  .max-search{
+    display: none;
+  }
+  .HomePageHero input{
+    min-width: 280px;
+
+  }
+  .search-button{
+    display: block;
+  }
+}
+
+.HomePageHero{
+  background-image: url(./imgs/background.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./imgs/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%; 
+  min-height: 700px;
+  padding-top: 100px;
+  
+
+}
+
+.MainSearchWrap{
+  margin-top: 50px;
+}
+.MainTitle{
+  display: block;
+  text-align: center;
+  font-weight:bold;
+  margin-bottom: 30px;
+  font-family: CostarBrownBold, sans-serif;
+  font-size:60px;
+  letter-spacing:2px;
+  color: white;
+  /* text-shadow: 4px 4px 4px rgb(90, 177, 75); */
+  
+}
+.form-search-wrapper{
+  position: relative;
+  /* top: 5px; */
+}
+.HomePageHero input{
+  width: 50%;
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-indent: 5px;
+  font-size: 20px;
+  /* display: block; */
+
+}
+.mini-search{
+  /* display: none; */
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  right: 49px;
+  border: none;
+  font-size: 30px;
+  background-color: green;
+  color: white;
+  
+}
+.HomePageHero .max-search{
+  width: 100px;
+  height: 50px;
+  margin-left: 20px;
+  padding: 2px;
+  background-color: rgb(64, 212, 64);
+  /* background-color: #A7E245; */
+  font-size: 20px;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.HomePageHero .max-search:hover{
+  background-color: #0B6839;
+}
+
+.extra{
+  display: flex;
+  justify-content: center;
+}
+.extra form{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+.homepage-container{
+  width: 90% auto;
+  /* display: flex;
+  justify-content: center; */
+}
+.homepage-container h3{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  color: #1C1B19;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 36px;
+
+}
+.homepage-featured-list{
+  width: 100%;
+}
+
+.card{
+  padding: 9px;
+  margin: 5px auto;
+}
+.card :hover .card-img-top{
+  border: 1px solid green;
+  color: red;
+  transition: transform .2s;
+  transform: scale(1.1);
+}
+.card-img-top{
+  min-height: 180px;
+}
+.homepage-featured-actions{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.homepage-featured-actions a{
+  padding: 10px;
+  text-decoration: none;
+  /* border: 1px solid green; */
+  border-radius: 5px;
+  background-color: rgb(64, 212, 64);
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+.homepage-featured-actions a:hover{
+  background-color: #0B6839;
+  color: white;
+}
+footer{
+  margin-top: 35px;
+  padding: 20px;
+  border-top: 1px solid gray 0.99;
+  background-color: #F4F4F4;
+  
+}
+.footer-title{
+  /* font-family: CostarBrownRegular, sans-serif; */
+  font-size:30px;
+  /* letter-spacing: 2px; */
+  font-weight:400;
+  line-height:1px;
+  text-decoration: none;
+  color: #1C1B19;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* color: black; */
+  
+
+}
+.footer-icon{
+  color: green;
+}
+.container{
+  margin-top: 10px;
+}
+.container h6{
+  margin-top: 8px;
+  color: #1C1B19;
+}
+.socialIcons a{
+  font-size: 30px;
+  margin-left: 5px;
+  color: #4C4C4C;
+}
+.about-us{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* margin-left: 10px; */
+  display: block;
+}
+
+/* login */

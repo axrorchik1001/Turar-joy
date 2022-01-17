@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Foydaluvchi bilan muloqat</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/user_muloqat.css'>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./icon/all.css">
+</head>
+
+<body>
+    <header>
+        <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+            </a>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="./view_more.html">Ijarada turish</a></li>
+                <li><a class="dropdown-item" href="./user_muloqat.html">Uy ijaraga berish</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+
+
+        <span class="HeaderTitle">
+            <i class="fas fa-home"></i>
+            <h2>Turar Joy</h2>
+        </span>
+
+        <div class="HeaderLoginSection">
+            <a href="./login.html" class="registratsiya">Ro'yxatdan o'tish</a>
+            <span>/</span>
+            <a href="./login.html">Kirish</a>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="add-property">
+            <h3>O'z mulkingizni qoshing</h3>
+            <div class="property property-addres">
+                <form action="">
+                    <label for="addres">Manzil</label> <br>
+                    <input type="text">
+                </form>
+            </div>
+            <div class="property property-type">
+                <form action="">
+                    <label for="addres">Mulk turi (uchastka ,..)</label> <br>
+                    <input type="text">
+                </form>
+            </div>
+            
+            <div class="property-wrapper">
+                <div class="property property-price">
+                    <form action="">
+                        <label for="addres">Narxi $</label> <br>
+                        <input type="text">
+                    </form>
+                </div>
+                <div class="property property-beds">
+                    <form action="">
+                        <label for="addres">Xonalar soni</label> <br>
+                        <input type="number">
+                    </form>
+                </div>
+                <div class="property property-remont">
+                    <form action="">
+                        <label for="addres">Remont turi</label> <br>
+                        <input type="text">
+                    </form>
+                </div>
+                <div class="property property-kvadrat-metr">
+                    <form action="">
+                        <label for="addres">Kvadrat metr</label> <br>
+                        <input type="text">
+                    </form>
+                </div>
+            </div>
+            
+            <div class="property">
+                <form action="">
+                    <textarea name="" id="property-home-info" cols="30" rows="10"></textarea>
+                </form>
+            </div>
+            <div class="property-button">
+                <form action="">
+                    <input type="button" value="Kiritsh">
+                </form>
+            </div>
+        </div>
+        
+
+
+        </div>
+    </main>
+
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- <script src="./bootstrap/js/bootstrap.min.js"></script> -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
